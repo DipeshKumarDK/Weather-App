@@ -71,7 +71,7 @@ function App() {
       <div className="flex flex-row w-4/5 sm:w-2/3 xl:w-1/3">
       <input type="text" placeholder="Enter your city" id='inp' className="p-1 bg-slate-100 w-11/12"></input>
       <div onClick={getDataNow}>
-      <img  className="xl:w-10 xl:h-10 sm:h-16 sm:w-16 wq:w-16 wq:h-16 w-10 h-10" src={"https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814052__340.png"} alt=""></img>
+      <img  className="xl:w-10 xl:h-10 sm:h-16 sm:w-16 wq:w-16 cursor-pointer wq:h-16 w-10 h-10" src={"https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814052__340.png"} alt=""></img>
       </div>
       </div>
       <div
